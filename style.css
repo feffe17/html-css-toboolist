@@ -129,17 +129,18 @@ main > .container{
     color: red;
     border: 1px solid red;
     padding-bottom: 3px;
+    padding-left: 2px;
 }
 
 .mark{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     border-radius: 50%;
     display: flex;
     align-items: center;
 }
 
-.button{
+.tag{
     font-size: 15px;
     padding: 5px;
     border: 2px solid;
