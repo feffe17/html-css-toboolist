@@ -1,3 +1,6 @@
+
+/* generiche */
+
 :root{
     --editorial:#45abe9;
     --primary:#47adf1;   
@@ -7,4 +10,40 @@
     --website:#d863a1;
     --sales:#b0c926;
     --bgc:#f6f8f9;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+}
+
+/* header */
+
+header > .container{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 2rem;
+}
+
+#logo_img{
+    
+}
+
+.container > h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 45px;
+
+}
+
+/* main */
+
+main > .container{
+    background-color: var(--bgc);
+    
 }
