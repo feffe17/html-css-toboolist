@@ -28,6 +28,7 @@ header > .container{
     align-items: center;
     padding-top: 1rem;
     padding-left: 2rem;
+    padding-bottom: 1rem;
 }
 
 #logo_img{
@@ -45,5 +46,40 @@ header > .container{
 
 main > .container{
     background-color: var(--bgc);
-    
+    padding-top: 3rem;
+}
+
+.mainbox{
+    width: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.boxheader{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.function-button{
+    height: 30px;
+    color: gray;
+    border: 2px solid grey;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 20px 20px;
+    cursor: pointer;
+}
+
+.function-button:hover{
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid var(--primary);
+    transition-delay: 0.25s;
+}
+
+#spacebar{
+    border: 2px solid var(--bgc);
 }
