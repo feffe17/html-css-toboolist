@@ -17,6 +17,10 @@
     margin: 0;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .container{
     width: 100vw;
 }
@@ -48,12 +52,15 @@ header > .container{
 main > .container{
     background-color: var(--bgc);
     padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .mainbox{
     width: 70%;
     margin: auto;
     background-color: white;
+    border-radius: 6px;
+    padding-bottom: 40px;
 }
 
 .box-header{
@@ -160,4 +167,14 @@ main > .container{
 .mobile{
     background-color: var(--mobile);
     border-color: var(--mobile);
+}
+
+.website{
+    background-color: var(--website);
+    border-color: var(--website);
+}
+
+.sales{
+    background-color: var(--sales);
+    border-color: var(--sales);
 }
