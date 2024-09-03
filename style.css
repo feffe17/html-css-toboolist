@@ -44,6 +44,7 @@ header > .container{
 
 /* main */
 
+/* box-header */
 main > .container{
     background-color: var(--bgc);
     padding-top: 3rem;
@@ -55,9 +56,11 @@ main > .container{
     background-color: white;
 }
 
-.boxheader{
+.box-header{
     display: flex;
     justify-content: flex-start;
+    width: 90%;
+    margin: auto;
 }
 
 .function-button{
@@ -69,7 +72,7 @@ main > .container{
     padding: 20px;
     justify-content: center;
     align-items: center;
-    margin: 20px 0 20px 20px;
+    margin: 20px 20px 20px 0px;
     cursor: pointer;
 }
 
@@ -82,4 +85,79 @@ main > .container{
 
 #spacebar{
     border: 2px solid var(--bgc);
+}
+
+/* box-main */
+
+.box-main{
+    width: 90%;
+    margin: auto;
+}
+
+.new-tasks{
+
+}
+
+.box-title > h2{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 20px 0 10px 0;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.check{
+    color: var(--recruiting);
+    border: 1px solid var(--recruiting);
+    padding-left: 2px;
+}
+
+.cross{
+    color: red;
+    border: 1px solid red;
+    padding-bottom: 3px;
+}
+
+.mark{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    font-size: 15px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin-left: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.editorial{
+    background-color: var(--editorial);
+    border-color: var(--editorial);
+}
+
+.q1-goals{
+    background-color: var(--q1-goals);
+    border-color: var(--q1-goals);
+}
+
+.recruiting{
+    background-color: var(--recruiting);
+    border-color: var(--recruiting);
+}
+
+.mobile{
+    background-color: var(--mobile);
+    border-color: var(--mobile);
 }
